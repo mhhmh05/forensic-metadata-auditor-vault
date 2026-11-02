@@ -1,0 +1,22 @@
+# Python environment & cache
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# IDE & Editor settings
+.vscode/
+.idea/
+
+# Application test outputs & evidence files
+*.vault
+sanitized_*
+*.pdf
+data/raw_samples/*
+!data/raw_samples/.gitkeep
+
+# System files
+Thumbs.db
+.DS_Store
